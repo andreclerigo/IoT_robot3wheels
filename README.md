@@ -11,7 +11,7 @@ Using an ESP32-Cam with an ESP32-2S chip that is compatible with CAMERA_MODEL_AI
 ![](https://i.imgur.com/2zsgfrU.png)  
 Then connect the Arduino to your computer and flash upload the code  
 When you see "Conecting..." on the terminal press the RESET button on the ESP32-Cam  
-After that disconnect the IO0 with GND and presse the RESET button on the ESP32-Cam again  
+After that disconnect the IO0 with GND and press the RESET button on the ESP32-Cam again  
 It's done!
 
 ## Settings
