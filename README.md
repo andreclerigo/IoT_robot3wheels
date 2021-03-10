@@ -1,3 +1,5 @@
+# THIS PROJECT IS STILL ON GOING!
+
 # robot3wheels_esp32cam  
 A project that will take a simple Arduino project to a controlled robot trough the internet with video feed  
 **This project uses VSCode extension [PlatformIO](https://platformio.org/) to program the microcontrollers**
