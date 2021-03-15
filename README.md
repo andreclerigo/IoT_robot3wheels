@@ -1,6 +1,6 @@
 # THIS PROJECT IS STILL ON GOING!
 
-# Robot Car with 3 wheels (2 motors) controlled by an ESP-32Cam
+# Robot Car with 3 wheels controlled by an ESP-32Cam
 A project that will take a simple Arduino project to a controlled robot trough the internet with video feed  
 **This project uses VSCode extension [PlatformIO](https://platformio.org/) to program the microcontrollers**
 
