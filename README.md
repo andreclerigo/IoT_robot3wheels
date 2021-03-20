@@ -9,6 +9,8 @@ Flashing with [Arduino UNO](https://cdn.shoplightspeed.com/shops/642375/files/29
 Using an ESP32-Cam with an ESP32-2S chip that is compatible with CAMERA_MODEL_AI_THINKER  
 
 # A 3 phase project
-## Video Feed
+## Video Feed  
+In this phase you can follow the instructions that are inside the Video Feed directories  
+There I show different ways on how to connect an ESP32-Cam and get Video Feed to a local IP address  
 ## Remote Control
 ## All together
