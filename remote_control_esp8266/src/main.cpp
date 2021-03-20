@@ -1,13 +1,14 @@
 #include <Arduino.h>
 
 //Pins connected to the relays
-int relay1 = 15;
-int relay2 = 13;
-int relay3 = 12;
-int relay4 = 14;
+int relay1 = 12;
+int relay2 = 14;
+int relay3 = 5;
+int relay4 = 16;
 
 void forward();
 void reverse();
+void stop();
 
 void setup() {
     //Set the relay pins as output
@@ -29,10 +30,14 @@ void setup() {
 
 void loop() {
     forward();
-    //reverse();
+    delay(2000);
+    reverse();
+    delay(2000);
 }
 
 void forward() {
+    stop();
+    delay(10);
     digitalWrite(relay1, HIGH);
     digitalWrite(relay2, LOW);
     digitalWrite(relay3, LOW);
@@ -40,8 +45,18 @@ void forward() {
 }
 
 void reverse() {
+    stop();
+    delay(10);
     digitalWrite(relay1, LOW);
     digitalWrite(relay2, HIGH);
     digitalWrite(relay3, HIGH);
     digitalWrite(relay4, LOW);
+}
+
+void stop()
+{
+    digitalWrite(relay1, HIGH); 
+    digitalWrite(relay2, HIGH); 
+    digitalWrite(relay3, HIGH); 
+    digitalWrite(relay4, HIGH);
 }
