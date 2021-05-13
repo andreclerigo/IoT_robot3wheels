@@ -1,4 +1,4 @@
-# THIS PROJECT IS STILL ON GOING!
+# An ongoing project!
 
 # Robot Car with 3 wheels controlled by an ESP-32Cam
 A project that will take a simple Arduino project to a controlled robot trough the internet with video feed  
@@ -10,7 +10,8 @@ Using an ESP32-Cam with an ESP32-2S chip that is compatible with CAMERA_MODEL_AI
 
 # A 3 phase project
 ## Video Feed  
-In this phase you can follow the instructions that are inside the Video Feed directories  
-There I show different ways on how to connect an ESP32-Cam and get Video Feed to a local IP address  
-## Remote Control
+Follow the instructions that are inside the Video Feed directories  
+In there I show the different ways on how to connect an ESP32-Cam and get Video Feed to a local IP address  
+## Remote Control  
+Controlling the robot motors from the web, more info inside the remote control directory
 ## All together
