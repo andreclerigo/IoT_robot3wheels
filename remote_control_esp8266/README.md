@@ -1,2 +1,2 @@
 # Wiring
-![alt text](https://imgur.com/Gyx4lY1)
+![](https://i.imgur.com/Gyx4lY1.png)
